@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicago Intersections Finder</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet@3.0.10/dist/esri-leaflet.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Chicago Intersections Finder</h1>
+      <div id="result-container" class="result-container hidden">
+        <div id="map"></div>
+        <div id="coordinates-display"></div>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Enter intersection name..."
+          autocomplete="off"
+        />
+        <div id="autocomplete-results" class="autocomplete-results"></div>
+      </div>
+    </div>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
