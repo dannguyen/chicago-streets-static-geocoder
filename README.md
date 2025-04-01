@@ -1,7 +1,7 @@
 # Chicago Intersections using Street Center Line city data
 
 
-<h3>tl;dr: try the [interactive demo of this hacky-but-cloud-free Chicago streets geocoder](https://dannguyen.github.io/chicago-streets-static-geocoder/)</h3>
+### tl;dr: try the [interactive demo of this hacky-but-cloud-free Chicago streets geocoder](https://dannguyen.github.io/chicago-streets-static-geocoder/), built using public geospatial data</h3>
 
 I needed a way to let users type in an address and geocode the result, without having to use a commercial cloud service like [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview).
 
