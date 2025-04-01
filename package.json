@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "format": "prettier --write . && black scripts/",
+    "lint": "prettier --check .",
+    "munge": "python3 ./scripts/munge.py"
+  }
+}

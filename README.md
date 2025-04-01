@@ -3,7 +3,15 @@
 
 ### tl;dr: try the [interactive demo of this hacky-but-cloud-free Chicago streets geocoder](https://dannguyen.github.io/chicago-streets-static-geocoder/), built using public geospatial data</h3>
 
-I needed a way to let users type in an address and geocode the result, without having to use a commercial cloud service like [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview).
+<a href="https://dannguyen.github.io/chicago-streets-static-geocoder/)">
+<img alt="preview of the geocoder demo" src="docs/assets/preview.png" />
+</a>
+
+
+## About / Why
+
+
+I needed a way to geocode Chicago-area addresses/locations typed in by users, but without needing to sign up for a cloud service like [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview).
 
 Browsing Chicago's Data Portal, I found the [Street Center Lines](https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau) dataset; **56,000+** records corresponding to each street segment, including the coordinates and street names for their starting and terminal intersections.
 
